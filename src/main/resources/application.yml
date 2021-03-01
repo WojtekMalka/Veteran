@@ -1,5 +1,7 @@
-spring:
-  h2.console:
-    enabled:  true
-    path: '/console'
-  datasource: 'jdbc:h2:file:C:/Users/WojtekM/Repozytorium/Veteran/veteran-db'
+  spring:
+    h2.console:
+      enabled:  true
+      path: '/console'
+    datasource:
+      url: 'jdbc:h2:file:C:/Users/WojtekM/Repozytorium/Veteran/veteran-db'
+  my.prop: 'test'
